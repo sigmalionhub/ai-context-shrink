@@ -1,6 +1,6 @@
 {
   "name": "@sigmalion/ai-context-shrink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compress objects and text to minimize LLM tokens while preserving clarity",
   "keywords": [
     "llm",
