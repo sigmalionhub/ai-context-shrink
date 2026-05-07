@@ -2,7 +2,7 @@
 
 > Compress objects and text to minimize LLM tokens while keeping it readable.
 
-[![npm version](https://badge.fury.io/js/ai-context-shrink.svg)](https://badge.fury.io/js/ai-context-shrink)
+[![npm version](https://img.shields.io/npm/v/@sigmalion/ai-context-shrink.svg)](https://www.npmjs.com/package/@sigmalion/ai-context-shrink)
 [![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
 
@@ -17,7 +17,7 @@ You're passing large objects or long texts into an LLM prompt, and you're burnin
 ## Install
 
 ```bash
-npm install ai-context-shrink
+npm install @sigmalion/ai-context-shrink
 ```
 
 ---
@@ -25,7 +25,7 @@ npm install ai-context-shrink
 ## Quick Start
 
 ```ts
-import { shrink, schema, shrinkToString } from 'ai-context-shrink';
+import { shrink, schema, shrinkToString } from '@sigmalion/ai-context-shrink';
 
 const data = {
   userId: 42,

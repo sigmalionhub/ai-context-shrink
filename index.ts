@@ -1,9 +1,9 @@
 /**
- * ai-context-shrink
+ * @sigmalion/ai-context-shrink
  * A utility for compressing objects and text to minimize token usage
  * while keeping the output maximally readable for LLMs.
  *
- * @module ai-context-shrink
+ * @module @sigmalion/ai-context-shrink
  */
 
 // ─── Types & Interfaces ───────────────────────────────────────────────────────
@@ -240,7 +240,7 @@ function processObject(
  *
  * @example
  * ```ts
- * import { shrink } from 'ai-context-shrink';
+ * import { shrink } from '@sigmalion/ai-context-shrink';
  *
  * const result = shrink({ name: 'Alice', tags: [1,2,3,4,5,6,7,8] });
  * // { name: 'Alice', tags: [1, 2, 3, '[+ 2 items]', 7, 8] }
