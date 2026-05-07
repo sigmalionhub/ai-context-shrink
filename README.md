@@ -98,13 +98,13 @@ shrinkToString(data: unknown, options?: ShrinkOptions, space?: string | number):
 
 ## Options
 
-| Параметр             | Тип       | По умолчанию   | Описание                                               |
-|----------------------|-----------|----------------|--------------------------------------------------------|
-| `maxArrayItems`      | `number`  | `3`            | Number of elements kept at the start and end of arrays |
-| `maxStringLength`    | `number`  | `100`          | Maximum string length (characters)                     |
-| `schemaMode`         | `boolean` | `false`        | Returns a schema of types instead of values            |
-| `maxDepth`           | `number`  | `10`           | Maximum recursion depth                                |
-| `circularPlaceholder`| `string`  | `"[Circular]"` | Placeholder for circular references                    |
+| Parameter             | Type      | Defaults       | Description                                            |
+|-----------------------|-----------|----------------|--------------------------------------------------------|
+| `maxArrayItems`       | `number`  | `3`            | Number of elements kept at the start and end of arrays |
+| `maxStringLength`     | `number`  | `100`          | Maximum string length (characters)                     |
+| `schemaMode`          | `boolean` | `false`        | Returns a schema of types instead of values            |
+| `maxDepth`            | `number`  | `10`           | Maximum recursion depth                                |
+| `circularPlaceholder` | `string`  | `"[Circular]"` | Placeholder for circular references                    |
 
 ---
 
